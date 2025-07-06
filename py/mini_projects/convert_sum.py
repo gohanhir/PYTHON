@@ -13,3 +13,5 @@ elif choice == "2":
     dollars = float(input("dollars: "))
     sums = dollars*rate
     print(dollars, "dollars is", sums, "sums")
+else:
+    print("error")
